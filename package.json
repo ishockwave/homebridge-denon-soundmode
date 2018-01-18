@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ishockwave/homebridge-denon-soundmode"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ishockwave/homebridge-denon-soundmode/issues"
   },
   "engines": {
     "node": ">=0.12.0",
