@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-denon-soundmode",
+  "version": "0.0.1",
+  "description": "Denon plugin to detect specific input mode for homebridge: https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin",
+    "Denon",
+    "Input"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0",
+    "hap-nodejs": ">=0.4.13"
+  },
+  "dependencies": {
+    "request": "^2.69.0",
+    "util": "^0.10.3",
+    "xml2js": "0.4.x",
+	"polling-to-event": "2.0.2"
+  }
+}

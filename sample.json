@@ -1,0 +1,9 @@
+{
+  "accessory": "DenonSoundmode",
+  "name": "Denon LivingRoom",
+  "ip": "192.168.178.18",
+  "inputName": "Apple-TV",
+  "soundMode": "Multi Ch In",
+  "doPolling": true,
+  "pollingInterval": 10
+}
