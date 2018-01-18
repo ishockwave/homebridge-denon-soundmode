@@ -8,25 +8,27 @@ TODO
 # Configuration
 Example - config.json
 
-  {
-    "bridge": {
-        "name": "Homebridge",
-        "username": "CC:22:3D:E3:CE:51",
-        "port": 51826,
-        "pin": "031-45-154"
-    },
-    "accessories": [
-      {
-        "accessory": "DenonSoundmode",
-        "name": "Denon LivingRoom",
-        "ip": "192.168.178.18",
-        "inputName": "Apple-TV",
-        "soundMode": "Multi Ch In",
-        "doPolling": true,
-        "pollingInterval": 10
-      }
-    ]
-  }
+```json
+{
+  "bridge": {
+      "name": "Homebridge",
+      "username": "CC:22:3D:E3:CE:51",
+      "port": 51826,
+      "pin": "031-45-154"
+  },
+  "accessories": [
+    {
+      "accessory": "DenonSoundmode",
+      "name": "Denon LivingRoom",
+      "ip": "192.168.178.18",
+      "inputName": "Apple-TV",
+      "soundMode": "Multi Ch In",
+      "doPolling": true,
+      "pollingInterval": 10
+    }
+  ]
+}
+```
 
 ## Inputnames
 inputName should be set as shown on your front LCD panel.
