@@ -63,8 +63,8 @@ function DenonAVRAccessory(log, config) {
 DenonAVRAccessory.prototype.getIsPlaying = function (callback) {
   this.denon.getStates(function (err, retval) {
       if (err) {
-          this.log('get InputName error: ' + err)
-          callback(err);
+          this.log('get IsPlaying error: ' + err)
+          callback(null, false);
       } else {
           callback(null, (retval.powerState = 'ON') && (retval.inputName.indexOf(this.inputName) >= 0) && (retval.soundMode.indexOf(this.soundMode) >= 0));
       }
